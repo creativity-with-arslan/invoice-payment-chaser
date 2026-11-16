@@ -1,0 +1,39 @@
+﻿# Environment variables and secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Dependencies
+**/node_modules/
+**/vendor/
+
+# Build outputs and caches
+**/dist/
+**/coverage/
+**/.angular/cache/
+**/bootstrap/cache/*.php
+**/storage/framework/cache/*
+**/storage/framework/sessions/*
+**/storage/framework/views/*
+
+# Laravel generated files
+backend/public/storage
+backend/storage/*.key
+
+# Logs and temporary files
+*.log
+*.tmp
+*.cache
+.phpunit.result.cache
+
+# IDE and editor files
+.idea/
+.vscode/
+.cursor/
+.history/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
